@@ -43,7 +43,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'rest_api.apps.RestApiConfig',
-    'users.apps.UsersConfig'
+    'users.apps.UsersConfig',
+    'schedule.apps.ScheduleConfig',
+    'drf_yasg'
 ]
 
 MIDDLEWARE = [
